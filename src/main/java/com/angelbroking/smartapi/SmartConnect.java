@@ -696,7 +696,7 @@ public class SmartConnect {
 			String url = routes.get("api.candle.data");
 			JSONObject response = smartAPIRequestHandler.postRequest(this.apiKey, url, params, accessToken);
 			System.out.println(response);
-			return response.getString("data");
+			return response.get("data").toString();
 		} catch (Exception | SmartAPIException e) {
 			System.out.println(e.getMessage());
 			return null;
