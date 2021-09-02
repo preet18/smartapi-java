@@ -1,5 +1,5 @@
 # Smart API 1.0 Java client
-The official Java client for communicating with [Smart API Connect API](https://smartapi.angelbroking.com).
+The official Java client for communicating with [Smart API Connect API](https://smartapi.angelbroking.com). It's from Angel Broking.
 
 Smart API is a set of REST-like APIs that expose many capabilities required to build a complete investment and trading platform. Execute orders in real time, manage user portfolio, stream live market data (WebSockets), and more, with the simple HTTP API collection.
 
